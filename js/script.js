@@ -4,7 +4,7 @@ function check ( )
     if ( document.contact_form.fname.value == "" ){
         alert ( "Будь ласка заповніть поле 'ІМ'Я КОРИСТУВАЧА:'." );
         document.getElementById("fname").style.border = "4px solid red";
-        valid = true
+        valid = true;
         }
     if ( document.contact_form.lname.value == "" ){
         alert ( "Будь ласка заповніть поле 'ПРІЗВИЩЕ:'." );            
