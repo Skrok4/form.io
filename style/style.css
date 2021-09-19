@@ -1,0 +1,96 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0%;
+}
+body{
+    font-family:Arial;
+    background-color: #2b8ea7;
+}
+h1{
+    text-align: center;
+    margin:5px 0 0 0 ;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #5200a5;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: lightblue;
+    width: 35%;
+    padding:20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+.group{
+    align-items: center;
+    margin: 4.5%;
+}
+legend{
+    font-size: 22px;
+    margin-top:-5px;
+}
+label{
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.radio input{
+    margin: 5px 0 10px 40px;
+    height:20px;
+    width:20px;
+    box-shadow:none;
+}
+.radio input:focus{
+    transform: none;
+    width: 20px;
+}
+.radio label{
+    margin-left: 15px
+}
+select{
+    margin-top:10px ;
+    height:40px;
+    width:93%;
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 16px;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.82);
+}
+input{
+    margin-top:5px;
+    height:40px;
+    width:90%;
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.82);
+}
+input:focus{
+    border: 2px solid #6c00ff;
+    transform: translateX(15px);
+    width: 385px;   
+}
+.button {
+    text-align: center; 
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    background: #5200a5;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.82);
+}
+.button:hover {
+    opacity: 0.80;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: .3s;
+}  
+.button:not(hover) {
+    transition: .5s;
+}
